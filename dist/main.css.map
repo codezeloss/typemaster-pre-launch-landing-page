@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAAA,KAEE,eCCF,CDEA,OAJE,cCOF,CDHA,EACE,UCEF","file":"main.css","sourcesContent":["body {\n  font-size: 2rem;\n  font-weight: 800;\n}\n\np {\n  color: #000;\n  font-size: 2rem;\n}\n","body {\n  font-size: 2rem;\n  font-weight: 800;\n}\n\np {\n  color: #000;\n  font-size: 2rem;\n}"]}
