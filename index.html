@@ -18,8 +18,8 @@
   </head>
 
   <body class="grid">
-    <header class="container">
-      <nav class="navbar">
+    <header>
+      <nav class="navbar container">
         <img
           class="navbar__logo"
           src="images/icons/logo.svg"
@@ -32,7 +32,7 @@
     <main>
       <div class="container">
         <div class="hero">
-          <div>
+          <div class="hero__leftside">
             <h1 class="heading-primary">Typemaster keyboard</h1>
             <p class="hero__description">
               Improve your productivity and gaming without breaking the bank.
@@ -43,11 +43,13 @@
               Release on 5/27
             </button>
           </div>
-          <img
-            class="hero__img"
-            src="images/desktop/image-keyboard.jpg"
-            alt="Keyboard image 01"
-          />
+          <div class="hero__rightside">
+            <img
+              class="hero__img"
+              src="images/desktop/image-keyboard.jpg"
+              alt="Keyboard image 01"
+            />
+          </div>
         </div>
 
         <div class="detail">
@@ -57,13 +59,14 @@
             style="width: 255px; height: 480px; border-radius: 1.2rem"
           />
           <img
+            class="detail__img2"
             src="images/desktop/image-glass-and-keyboard.jpg"
             alt="Keyboard image 03"
             style="
               width: 445px;
               height: 480px;
               border-radius: 1.2rem;
-              margin-right: 6rem;
+              margin-right: 2.3rem;
             "
           />
           <div class="detail__box">
@@ -76,7 +79,7 @@
           </div>
         </div>
 
-        <div class="about">
+        <div class="about container">
           <div class="about__grid">
             <div class="about__test">
               <img
