@@ -1,9 +1,222 @@
-body {
-  font-size: 2rem;
-  font-weight: 800;
+// COLORS
+$primary-color-light-1: #f16718;
+$primary-color-light-2: #ff9b62;
+$primary-color-dark-1: #162542;
+$primary-color-dark-2: #7b8bad;
+$color-grey: #e8eff2;
+$color-white: #ffffff;
+
+// TYPOGRAPHY
+$primary-font: "Barlow", sans-serif;
+
+/////////////////////////////////////
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-p {
-  color: #000;
-  font-size: 2rem;
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 62.5%;
+  font-family: $primary-font;
+}
+
+// GENERAL
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  width: 175px;
+  height: 58px;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  color: $primary-color-dark-1;
+  background-color: $color-grey;
+  border-radius: 8px;
+}
+
+.heading-primary {
+  color: $primary-color-dark-1;
+  font-size: 56px;
+  line-height: 56px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.heading-secondary {
+  color: $primary-color-dark-1;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.heading-teritiary {
+  color: $primary-color-dark-1;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  grid-row: 2 / 3;
+  margin-right: 3rem;
+}
+
+// .grid {
+//   display: grid;
+//   grid-template-columns: repeat(8, 1fr);
+// }
+
+// main {
+//   grid-column: 1 / -1;
+// }
+
+// header {
+//   grid-column: 1 / -1;
+// }
+// NAVBAR
+.navbar {
+  width: 1110px;
+  height: 58px;
+  padding: 56px 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+// HERO SECTION
+.hero {
+  width: 1110px;
+  padding: 4rem 0rem 2rem 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+
+  &__description {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: $primary-color-dark-2;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 4rem;
+  }
+
+  &__btn-1 {
+    background-color: $primary-color-light-1;
+    color: $color-white;
+    font-weight: 600;
+    margin-right: 1rem;
+  }
+
+  &__btn-2 {
+    background-color: $color-white;
+    color: $primary-color-dark-2;
+    font-weight: 600;
+  }
+
+  &__img {
+    width: 540px;
+    height: 480px;
+    border-radius: 1.2rem;
+  }
+}
+
+// DETAIL SECTION
+.detail {
+  width: 1110px;
+  padding: 0rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $primary-color-dark-2;
+    margin-top: 1.5rem;
+  }
+}
+
+// ABOUT
+.about {
+  width: 1110px;
+  padding: 12rem 0rem 8rem 0rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  align-items: flex-start;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65px 56px 130px;
+    grid-row-gap: 2.5rem;
+  }
+
+  &__test {
+    background-color: $primary-color-light-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    width: 65px;
+    height: 65px;
+  }
+
+  &__icon {
+    grid-row: 1 / 2;
+  }
+
+  &__description {
+    color: $primary-color-dark-2;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    grid-row: 3 / 4;
+  }
+}
+
+// FOOTER
+.footer {
+  color: $primary-color-dark-2;
+  height: 26px;
+  font-family: Barlow;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 2rem 0rem 4rem 0rem;
+
+  span {
+    font-weight: bold;
+  }
 }
