@@ -119,6 +119,7 @@ body {
   }
 
   @media only screen and (max-width: 830px) {
+    padding: 1.8rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -231,6 +232,7 @@ body {
   }
 
   @media only screen and (max-width: 830px) {
+    padding: 1.8rem;
   }
 
   &__box {
@@ -286,6 +288,7 @@ body {
   }
 
   @media only screen and (max-width: 830px) {
+    padding: 1.8rem;
     grid-template-columns: 1fr;
   }
 
