@@ -369,7 +369,9 @@ body {
 // ABOUT
 .about {
   // width: 1110px;
-  padding: 12rem 0rem 8rem 0rem;
+  // padding: 12rem 0rem rem 0rem;
+  margin-top: 168px;
+  margin-bottom: 128px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
