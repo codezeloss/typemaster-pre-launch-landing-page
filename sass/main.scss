@@ -50,6 +50,12 @@ body {
     width: 150px;
     height: 48px;
   }
+
+  @media only screen and (max-width: 341px) {
+    font-size: 12px;
+    width: 135px;
+    height: 38px;
+  }
 }
 
 .heading-primary {
@@ -61,6 +67,11 @@ body {
 
   @media only screen and (max-width: 410px) {
     font-size: 46px;
+  }
+
+  @media only screen and (max-width: 341px) {
+    font-size: 36px;
+    line-height: 40px;
   }
 }
 
@@ -83,6 +94,11 @@ body {
   @media only screen and (max-width: 410px) {
     font-size: 26px;
   }
+
+  @media only screen and (max-width: 341px) {
+    font-size: 23px;
+    line-height: 26px;
+  }
 }
 
 .heading-teritiary {
@@ -96,6 +112,10 @@ body {
 
   @media only screen and (max-width: 410px) {
     font-size: 21px;
+  }
+
+  @media only screen and (max-width: 341px) {
+    font-size: 18px;
   }
 }
 
@@ -154,6 +174,10 @@ body {
     margin: 2rem 0rem;
   }
 
+  @media only screen and (max-width: 341px) {
+    margin: 1rem 0rem 2rem 0rem;
+  }
+
   &__leftside {
     @media only screen and (max-width: 1060px) {
       width: 70%;
@@ -189,7 +213,7 @@ body {
     }
 
     @media only screen and (max-width: 410px) {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 
@@ -198,6 +222,10 @@ body {
     color: $color-white;
     font-weight: 600;
     margin-right: 1rem;
+
+    @media only screen and (max-width: 430px) {
+      margin-right: 0rem;
+    }
   }
 
   &__btn-1:hover {
