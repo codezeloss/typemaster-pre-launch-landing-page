@@ -44,6 +44,12 @@ body {
   background-color: $color-grey;
   border-radius: 8px;
   cursor: pointer;
+
+  @media only screen and (max-width: 410px) {
+    font-size: 14px;
+    width: 150px;
+    height: 48px;
+  }
 }
 
 .heading-primary {
@@ -52,6 +58,10 @@ body {
   line-height: 56px;
   text-transform: uppercase;
   font-weight: 900;
+
+  @media only screen and (max-width: 410px) {
+    font-size: 46px;
+  }
 }
 
 .heading-secondary {
@@ -69,6 +79,10 @@ body {
   @media only screen and (max-width: 830px) {
     margin-right: 0rem;
   }
+
+  @media only screen and (max-width: 410px) {
+    font-size: 26px;
+  }
 }
 
 .heading-teritiary {
@@ -79,6 +93,10 @@ body {
   text-transform: uppercase;
   grid-row: 2 / 3;
   margin-right: 3rem;
+
+  @media only screen and (max-width: 410px) {
+    font-size: 21px;
+  }
 }
 
 // NAVBAR
@@ -102,6 +120,11 @@ body {
   &__logo {
     width: 40px;
     height: 40px;
+
+    @media only screen and (max-width: 410px) {
+      width: 30px;
+      height: 30px;
+    }
   }
 
   &__btn:hover {
@@ -163,6 +186,10 @@ body {
 
     @media only screen and (max-width: 830px) {
       margin-right: 0rem;
+    }
+
+    @media only screen and (max-width: 410px) {
+      font-size: 16px;
     }
   }
 
@@ -302,6 +329,10 @@ body {
     @media only screen and (max-width: 830px) {
       text-align: center;
     }
+
+    @media only screen and (max-width: 410px) {
+      font-size: 14px;
+    }
   }
 }
 
@@ -361,6 +392,10 @@ body {
     font-size: 16px;
     line-height: 26px;
     grid-row: 3 / 4;
+
+    @media only screen and (max-width: 405px) {
+      font-size: 14px;
+    }
   }
 }
 
@@ -373,6 +408,10 @@ body {
   font-size: 16px;
   line-height: 26px;
   padding: 2rem;
+
+  @media only screen and (max-width: 410px) {
+    font-size: 12px;
+  }
 
   span {
     font-weight: bold;
