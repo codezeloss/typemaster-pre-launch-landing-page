@@ -291,7 +291,7 @@ body {
       margin: 2rem 0rem; } }
   .about__grid {
     display: grid;
-    grid-template-rows: 65px 56px 130px;
+    grid-template-rows: 65px 56px max-content;
     grid-row-gap: 2.5rem; }
     @media only screen and (max-width: 1185px) {
       .about__grid {

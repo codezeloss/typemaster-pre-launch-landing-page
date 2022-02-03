@@ -139,6 +139,10 @@ body {
     padding: 3rem 1.8rem;
   }
 
+  @media only screen and (max-width: 410px) {
+    padding-top: 56px;
+  }
+
   &__logo {
     width: 40px;
     height: 40px;
@@ -393,9 +397,15 @@ body {
     margin: 2rem 0rem;
   }
 
+  @media only screen and (max-width: 410px) {
+    padding: 12rem 0rem 2rem 0rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   &__grid {
     display: grid;
-    grid-template-rows: 65px 56px 130px;
+    grid-template-rows: 65px 56px max-content;
     grid-row-gap: 2.5rem;
 
     @media only screen and (max-width: 1185px) {
@@ -443,6 +453,8 @@ body {
   margin-bottom: 39px;
 
   @media only screen and (max-width: 410px) {
+    margin-bottom: 0px;
+    padding: 2rem;
     font-size: 12px;
   }
 
