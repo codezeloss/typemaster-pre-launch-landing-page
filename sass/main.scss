@@ -123,9 +123,7 @@ body {
 .navbar {
   // width: 1110px;
   height: 58px;
-  margin-top: 55px;
-  margin-bottom: 83px;
-  // padding-top: 56px;
+  padding-top: 56px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -137,10 +135,6 @@ body {
 
   @media only screen and (max-width: 830px) {
     padding: 3rem 1.8rem;
-  }
-
-  @media only screen and (max-width: 410px) {
-    padding-top: 56px;
   }
 
   &__logo {
