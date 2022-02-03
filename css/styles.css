@@ -90,8 +90,7 @@ body {
 
 .navbar {
   height: 58px;
-  margin-top: 55px;
-  margin-bottom: 83px;
+  padding-top: 56px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -289,6 +288,11 @@ body {
       padding: 1.8rem;
       grid-template-columns: 1fr;
       margin: 2rem 0rem; } }
+  @media only screen and (max-width: 410px) {
+    .about {
+      padding: 12rem 0rem 2rem 0rem;
+      margin-top: 0px;
+      margin-bottom: 0px; } }
   .about__grid {
     display: grid;
     grid-template-rows: 65px 56px max-content;
@@ -327,6 +331,8 @@ body {
   margin-bottom: 39px; }
   @media only screen and (max-width: 410px) {
     .footer {
+      margin-bottom: 0px;
+      padding: 2rem;
       font-size: 12px; } }
   .footer span {
     font-weight: bold; }
