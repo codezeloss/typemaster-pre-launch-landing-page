@@ -113,7 +113,7 @@ body {
     color: #ffffff; }
 
 .hero {
-  padding: 0rem 0rem 2rem 0rem;
+  padding: 8rem 0rem 2rem 0rem;
   display: flex;
   flex-direction: row;
   align-items: center; }
@@ -256,6 +256,9 @@ body {
       .detail__box {
         flex-direction: column;
         text-align: center; } }
+    @media only screen and (max-width: 410px) {
+      .detail__box {
+        margin-top: 0rem; } }
   .detail__description {
     font-weight: 500;
     font-size: 16px;
@@ -290,9 +293,8 @@ body {
       margin: 2rem 0rem; } }
   @media only screen and (max-width: 410px) {
     .about {
-      padding: 12rem 0rem 2rem 0rem;
-      margin-top: 0px;
-      margin-bottom: 0px; } }
+      margin-top: 2rem;
+      margin-bottom: 2rem; } }
   .about__grid {
     display: grid;
     grid-template-rows: 65px 56px max-content;

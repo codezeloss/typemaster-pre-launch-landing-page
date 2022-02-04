@@ -156,7 +156,7 @@ body {
 // HERO SECTION
 .hero {
   // width: 1110px;
-  padding: 0rem 0rem 2rem 0rem;
+  padding: 8rem 0rem 2rem 0rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -345,6 +345,10 @@ body {
       flex-direction: column;
       text-align: center;
     }
+
+    @media only screen and (max-width: 410px) {
+      margin-top: 0rem;
+    }
   }
 
   &__description {
@@ -367,7 +371,7 @@ body {
 // ABOUT
 .about {
   // width: 1110px;
-  // padding: 12rem 0rem rem 0rem;
+  // padding: 12rem 0rem 2rem 0rem;
   margin-top: 168px;
   margin-bottom: 128px;
 
@@ -392,9 +396,8 @@ body {
   }
 
   @media only screen and (max-width: 410px) {
-    padding: 12rem 0rem 2rem 0rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   &__grid {
